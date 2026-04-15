@@ -76,8 +76,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
     <nav class="sidebar-nav">
-        <a href="dashboard.php" class="sidebar-link">📊 Dashboard</a>
-        <a href="../index.php" class="sidebar-link" target="_blank">🌐 Lihat Website</a>
+        <a href="dashboard.php" class="sidebar-link">Dashboard</a>
+        <a href="../index.php" class="sidebar-link" target="_blank">Lihat Website</a>
     </nav>
     <div class="sidebar-footer">
         <div class="admin-info">
@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <span class="admin-role">Administrator</span>
             </div>
         </div>
-        <a href="logout.php" class="btn-logout">🚪 Logout</a>
+        <a href="logout.php" class="btn-logout">Logout</a>
     </div>
 </aside>
 
@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             <div class="form-actions">
                 <a href="dashboard.php" class="btn-cancel">Batal</a>
-                <button type="submit" class="btn-primary">💾 Simpan Perubahan</button>
+                <button type="submit" class="btn-primary">Simpan Perubahan</button>
             </div>
         </form>
     </div>

@@ -53,18 +53,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
         <nav class="sidebar-nav">
-            <a href="dashboard.php" class="sidebar-link">📊 Dashboard</a>
-            <a href="../index.php" class="sidebar-link" target="_blank">🌐 Lihat Website</a>
+            <a href="dashboard.php" class="sidebar-link">Dashboard</a>
+            <a href="../index.php" class="sidebar-link" target="_blank">Lihat Website</a>
+             <a href="logout.php" class="sidebar-link active">Logout</a>
         </nav>
-    </aside>
 
+        <div class="sidebar-footer">
+        <div class="admin-info">
+            <div class="admin-avatar"><?= strtoupper(substr($_SESSION['admin_username'] ?? 'AD', 0, 2)) ?></div>
+            <div>
+                <span class="admin-name"><?= htmlspecialchars($_SESSION['admin_username'] ?? 'Admin') ?></span>
+                <span class="admin-role">Administrator</span>
+            </div>
+        </div>
+    </div>
+    </aside>
+    
     <main class="admin-main">
         <div class="admin-header">
             <div>
                 <h1 class="admin-title">Tambah Kegiatan</h1>
-                <p class="admin-sub">Masukkan informasi kegiatan baru</p>
             </div>
-            <a href="dashboard.php" class="btn-secondary">← Kembali</a>
+            <a href="dashboard.php" class="btn-secondary">Kembali</a>
         </div>
 
         <?php if ($error): ?>
@@ -93,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
                 <div class="form-actions">
                     <a href="dashboard.php" class="btn-secondary">Batal</a>
-                    <button type="submit" class="btn-primary">💾 Simpan Kegiatan</button>
+                    <button type="submit" class="btn-primary">Simpan Kegiatan</button>
                 </div>
             </form>
         </div>

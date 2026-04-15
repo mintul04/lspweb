@@ -43,7 +43,7 @@
         <div class="hero-shape s2"></div>
     </div>
     <div class="page-header-content">
-        <h1 class="page-title">Hubungi <span class="accent">Kami</span></h1>
+        <h1 class="page-title">Hubungi <span class="">Kami</span></h1>
         <p>Informasi kontak dan lokasi SMK Negeri 1 Dlanggu</p>
     </div>
 </div>
@@ -65,7 +65,6 @@
                 <div class="kontak-icon" style="background:#2ecc7120;color:#2ecc71;">📞</div>
                 <h3>Call Center</h3>
                 <p><strong>(0321) 593 056</strong></p>
-                <p class="kontak-note">Senin – Jumat: 07.00 – 16.00 WIB</p>
             </div>
 
             <!-- Email -->
@@ -73,7 +72,6 @@
                 <div class="kontak-icon" style="background:#e67e2220;color:#e67e22;">✉️</div>
                 <h3>Email</h3>
                 <p><strong>smkn1dlanggu@gmail.com</strong></p>
-                <p class="kontak-note">Respon dalam 1×24 jam kerja</p>
             </div>
 
             <!-- Website -->
@@ -81,7 +79,6 @@
                 <div class="kontak-icon" style="background:#9b59b620;color:#9b59b6;">🌐</div>
                 <h3>Website Resmi</h3>
                 <p><a href="https://www.smkn1dlanggu.sch.id" target="_blank" class="kontak-link">www.smkn1dlanggu.sch.id</a></p>
-                <p class="kontak-note">Informasi resmi sekolah</p>
             </div>
 
         </div>

@@ -35,7 +35,7 @@ if ($result && $result->num_rows > 0) {
                 </div>
             </a>
             <div class="nav-links">
-                <a href="index.php" class="nav-link active">Home</a>
+                <a href="index.php" class="nav-link">Home</a>
                 <a href="kontak.php" class="nav-link">Hubungi Kami</a>
                 <a href="login.php" class="nav-link btn-login">Login</a>
             </div>
@@ -57,8 +57,7 @@ if ($result && $result->num_rows > 0) {
             <div class="hero-shape s3"></div>
         </div>
         <div class="hero-content">
-            <h1 class="hero-title">Informasi Kegiatan<br><span class="accent">SMKN 1 Dlanggu</span></h1>
-            <p class="hero-desc">Temukan berita dan informasi terkini seputar kegiatan akademik, organisasi, prestasi, dan berbagai aktivitas di SMK Negeri 1 Dlanggu.</p>
+            <h1 class="hero-title">Informasi Kegiatan<br><span class="">SMKN 1 Dlanggu</span></h1>
             <div class="hero-stats">
                 <div class="stat-divider"></div>
                 <div class="stat-item">
@@ -83,7 +82,7 @@ if ($result && $result->num_rows > 0) {
 
             <?php if (empty($kegiatan_list)): ?>
                 <div class="empty-state">
-                    <div class="empty-icon">📋</div>
+                    <div class="empty-icon"></div>
                     <h3>Belum Ada Kegiatan</h3>
                     <p>Kegiatan akan ditampilkan di sini setelah administrator menambahkannya.</p>
                 </div>

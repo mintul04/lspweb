@@ -69,9 +69,9 @@ if ($result) {
         </div>
     </div>
     <nav class="sidebar-nav">
-        <a href="dashboard.php" class="sidebar-link active">📊 Dashboard</a>
-
-        <a href="../index.php" class="sidebar-link" target="_blank">🌐 Lihat Website</a>
+        <a href="dashboard.php" class="sidebar-link">Dashboard</a>
+        <a href="../index.php" class="sidebar-link" target="_blank">Lihat Website</a>
+        <a href="logout.php" class="sidebar-link active">Logout</a>
     </nav>
     <div class="sidebar-footer">
         <div class="admin-info">
@@ -81,7 +81,6 @@ if ($result) {
                 <span class="admin-role">Administrator</span>
             </div>
         </div>
-        <a href="logout.php" class="btn-logout">🚪Logout</a>
     </div>
 </aside>
 
@@ -89,9 +88,8 @@ if ($result) {
     <div class="admin-header">
         <div>
             <h1 class="admin-title">Dashboard</h1>
-            <p class="admin-sub">Kelola informasi kegiatan SMKN 1 Dlanggu</p>
         </div>
-        <a href="tambah.php" class="btn-primary">+ Tambah Kegiatan</a>
+        <a href="tambah.php" class="btn-primary">Tambah Kegiatan</a>
     </div>
 
     <?php if ($success): ?>
@@ -108,7 +106,7 @@ if ($result) {
             <table class="admin-table" style="width: 100%; border-collapse: collapse;">
                 <thead>
                     <tr style="text-align: left; background: #f8fafc;">
-                        <th style="padding: 15px; width: 50px;">#</th>
+                        <th style="padding: 15px; width: 50px;">No</th>
                         <th style="padding: 15px; width: 100px;">Gambar</th>
                         <th style="padding: 15px; width: 200px;">Judul</th>
                         <th style="padding: 15px;">Deskripsi</th>

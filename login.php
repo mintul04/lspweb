@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <div class="login-wrapper">
     <div class="login-card">
         <div class="login-brand">
-            <div class="brand-icon lg">TH</div>
+            <div class="brand-icon lg">SMK</div>
             <h2><?= SITE_NAME ?></h2>
             <p>Area Administrator</p>
         </div>
